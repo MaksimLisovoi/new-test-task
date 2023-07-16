@@ -7,8 +7,6 @@ export const App = () => {
   const [userText, setUserText] = useState("");
   const [uniqueSymbol, setUniqueSymbol] = useState("");
 
-  console.log(userText);
-
   const onChangeHandler = (e: React.ChangeEvent<HTMLInputElement>): void => {
     setUserText(e.target.value);
   };
